@@ -12,3 +12,4 @@ I hope this applicaiton is:
 - Containerized
 - Set to be build / deployed by Azure DevOps
 - Work as a test field for my full stack development skills
+- Using Atlassian Jira to manage it's requirements of new features or bugs
