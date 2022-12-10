@@ -1,7 +1,7 @@
 # HappyMenu
 Web based, mobile friendly menu / recipe application with management UI
 
-I need an application that can help my family decide what to cook for family, when no family member (especially my kids) has no idea to what to eat.
+I need an application that can help my family decide what to cook, when no family member (especially my kids) has idea on what to eat. And help making meal plans to somehow relax kitchen work and shopping list maintenance.
 
 I hope this applicaiton is:
 - Web based so any device with modern browser can use it
