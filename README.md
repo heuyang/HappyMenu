@@ -13,3 +13,15 @@ I hope this applicaiton is:
 - Set to be build / deployed by Azure DevOps
 - Work as a test field for my full stack development skills
 - Using Atlassian Jira to manage it's requirements of new features or bugs
+
+Technologies to be used
+- .net 6 or 7?
+- C#
+- Entity Framework Core
+- Web APIs
+- Azure Auth
+- Azure SQL
+- React
+- Typescript
+- XUnit
+- TDD
