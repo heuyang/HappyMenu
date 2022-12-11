@@ -18,10 +18,7 @@ Technologies to be used
 - .net 6 or 7?
 - C#
 - Entity Framework Core
-- Web APIs
-- Azure Auth
+- Web API
 - Azure SQL
-- React
-- Typescript
+- Blazer
 - XUnit
-- TDD
