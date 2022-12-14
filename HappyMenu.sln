@@ -13,22 +13,22 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.API", "4.API", "{81DCBE9E
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.UI", "5.UI", "{E7277054-6E32-4487-8349-E9CBBF3F2EFF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HappyMenu.Entities", "Database\HappyMenu.Entities\HappyMenu.Entities.csproj", "{C45CACC2-FF72-4B1C-BA81-1B5E2C6A49F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HappyMenu.Services", "Business\HappyMenu.Services\HappyMenu.Services.csproj", "{337954D3-E7B4-4342-A53F-1E5040DEC16D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HappyMenu.DbContext", "Database\HappyMenu.DbContext\HappyMenu.DbContext.csproj", "{F1F7A4D9-4F81-4F53-9CBD-32D46205255F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HappyMenu.ViewModels", "Business\HappyMenu.ViewModels\HappyMenu.ViewModels.csproj", "{AD699256-98C9-4381-8645-94E68ACBA47C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HappyMenu.Services", "Business\HappyMenu.Services\HappyMenu.Services.csproj", "{337954D3-E7B4-4342-A53F-1E5040DEC16D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HappyMenu.WebApi", "API\HappyMenu.WebApi\HappyMenu.WebApi.csproj", "{EF90E4DF-3566-4AD7-BDF0-7A03BA6411E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HappyMenu.ViewModels", "Business\HappyMenu.ViewModels\HappyMenu.ViewModels.csproj", "{AD699256-98C9-4381-8645-94E68ACBA47C}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HappyMenu.WebApi", "API\HappyMenu.WebApi\HappyMenu.WebApi.csproj", "{EF90E4DF-3566-4AD7-BDF0-7A03BA6411E8}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HappyMenu.Web", "UI\HappyMenu.Web\HappyMenu.Web.csproj", "{CAD8590A-A446-46BB-83AB-79C8B6DF02C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HappyMenu.Web", "UI\HappyMenu.Web\HappyMenu.Web.csproj", "{CAD8590A-A446-46BB-83AB-79C8B6DF02C2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CCBADDE0-3DF0-4662-9F2F-691A31B2188A}"
 	ProjectSection(SolutionItems) = preProject
 		README.md = README.md
 	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HappyMenu.DatabaseContext", "Database\HappyMenu.DatabaseContext\HappyMenu.DatabaseContext.csproj", "{3712007B-3279-4096-A22F-440E5D9AF0F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HappyMenu.Entities", "Database\HappyMenu.Entities\HappyMenu.Entities.csproj", "{2450EEF6-E2B5-43DA-B241-2C35B1ACD535}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,14 +36,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C45CACC2-FF72-4B1C-BA81-1B5E2C6A49F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C45CACC2-FF72-4B1C-BA81-1B5E2C6A49F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C45CACC2-FF72-4B1C-BA81-1B5E2C6A49F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C45CACC2-FF72-4B1C-BA81-1B5E2C6A49F6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F1F7A4D9-4F81-4F53-9CBD-32D46205255F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F1F7A4D9-4F81-4F53-9CBD-32D46205255F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F1F7A4D9-4F81-4F53-9CBD-32D46205255F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F1F7A4D9-4F81-4F53-9CBD-32D46205255F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{337954D3-E7B4-4342-A53F-1E5040DEC16D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{337954D3-E7B4-4342-A53F-1E5040DEC16D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{337954D3-E7B4-4342-A53F-1E5040DEC16D}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -60,17 +52,25 @@ Global
 		{CAD8590A-A446-46BB-83AB-79C8B6DF02C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CAD8590A-A446-46BB-83AB-79C8B6DF02C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CAD8590A-A446-46BB-83AB-79C8B6DF02C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3712007B-3279-4096-A22F-440E5D9AF0F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3712007B-3279-4096-A22F-440E5D9AF0F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3712007B-3279-4096-A22F-440E5D9AF0F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3712007B-3279-4096-A22F-440E5D9AF0F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2450EEF6-E2B5-43DA-B241-2C35B1ACD535}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2450EEF6-E2B5-43DA-B241-2C35B1ACD535}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2450EEF6-E2B5-43DA-B241-2C35B1ACD535}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2450EEF6-E2B5-43DA-B241-2C35B1ACD535}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{C45CACC2-FF72-4B1C-BA81-1B5E2C6A49F6} = {F8BA0D72-8C9B-49B5-A073-87D5A6F5B192}
-		{F1F7A4D9-4F81-4F53-9CBD-32D46205255F} = {F8BA0D72-8C9B-49B5-A073-87D5A6F5B192}
 		{337954D3-E7B4-4342-A53F-1E5040DEC16D} = {944B651C-118D-472E-9EE8-7DE6BACC8F6F}
 		{AD699256-98C9-4381-8645-94E68ACBA47C} = {944B651C-118D-472E-9EE8-7DE6BACC8F6F}
 		{EF90E4DF-3566-4AD7-BDF0-7A03BA6411E8} = {81DCBE9E-FD95-4A12-A750-34567B1F5232}
 		{CAD8590A-A446-46BB-83AB-79C8B6DF02C2} = {E7277054-6E32-4487-8349-E9CBBF3F2EFF}
+		{3712007B-3279-4096-A22F-440E5D9AF0F7} = {F8BA0D72-8C9B-49B5-A073-87D5A6F5B192}
+		{2450EEF6-E2B5-43DA-B241-2C35B1ACD535} = {F8BA0D72-8C9B-49B5-A073-87D5A6F5B192}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {39FBCBC1-FC7E-4DDB-A1DB-02D16E36743E}

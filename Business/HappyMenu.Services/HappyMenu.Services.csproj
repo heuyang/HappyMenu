@@ -6,7 +6,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Database\HappyMenu.DbContext\HappyMenu.DbContext.csproj" />
     <ProjectReference Include="..\..\Database\HappyMenu.Entities\HappyMenu.Entities.csproj" />
     <ProjectReference Include="..\HappyMenu.ViewModels\HappyMenu.ViewModels.csproj" />
   </ItemGroup>

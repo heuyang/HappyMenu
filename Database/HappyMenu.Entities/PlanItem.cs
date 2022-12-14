@@ -13,7 +13,7 @@ namespace HappyMenu.Entities
         public int ForFamilyMemberId { get; set; }
         public DateTime CreatedTime { get; set; }
 
-        public FamilyMember AddedByFamilyMember {  get; set; }
+        public FamilyMember AddedByFamilyMember { get; set; }
         public FamilyMember ForFamilyMember { get; set; }
     }
 }

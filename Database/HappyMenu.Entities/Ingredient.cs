@@ -10,5 +10,7 @@
 
         public string PhotoPath { get; set; }
 
+        public virtual List<DishIngredientRelationship> DishIngredientRelationshipList { get; set; }
+
     }
 }
